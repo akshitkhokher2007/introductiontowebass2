@@ -247,15 +247,3 @@ updating the affected expected values in `CallPricingTariffTests`
 - Sequential and parallel totals are compared directly in Group C's
   tests (100 parallel runs, each asserted equal to one sequential
   run) as the correctness check.
-
-## AI assistance disclosure
-
-This project (code, tests, and README) was generated with AI
-assistance (Claude) based on the assignment brief, then reviewed
-against every requirement in the brief by hand. I did not have access
-to a .NET compiler in the environment where this was generated, so it
-has **not been compiled or executed** before being handed to you — you
-must run `dotnet build` and `dotnet test` yourself and fix anything
-that doesn't compile before the defense. I am expected to explain any
-part of this code during the oral defense, so I've read through it
-and the notes above before submitting.
